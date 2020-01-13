@@ -1,0 +1,42 @@
+/* Mise en page de la grid principale */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-areas:
+      "sidenav header"
+      "sidenav main"
+      "sidenav footer";
+    height: 100vh;
+  }
+
+  /* Chaque élément syntaxique en mode Grid */
+.header {
+    grid-area: header;
+    background-color: #1A3359;
+  }
+  
+  .sidenav {
+    grid-area: sidenav;
+    background-color: #0F1D33;
+  }
+  
+  .main {
+    grid-area: main;
+    background-color: #3F7CD9;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color: #1A3359;
+  }
+
+  /* declaration du header et footer en display-flex */
+  .header, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background-color: #1A3359;
+  }
