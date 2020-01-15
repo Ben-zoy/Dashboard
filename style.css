@@ -29,7 +29,7 @@
     display: flex; /* Will be hidden on mobile */
     flex-direction: column;
     grid-area: sidenav;
-    background-color: #162C4C;
+    background-color:rgba(26, 51, 89, 0.2);
   }
   .sidenav__list {
     padding: 0;
@@ -57,8 +57,8 @@
     margin: 20px;
     padding: 20px;
 /* Force our height since we don't have actual content yet */
-    height: 150px; 
-    background-color: #e3e4e6;
+    height: 80px; 
+    background-color: rgba(245, 243, 243, 0.3);
     color: slategray;
     border-radius: 70px;
   }
@@ -78,8 +78,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #d3d3;
+    background-color:rgba(63, 124, 217, 0.3);
     border-radius: 30px;
+    border: solid 1px white;
   }
   .main-cards {
     column-count: 2;
@@ -99,6 +100,7 @@
     padding: 24px;
     box-sizing: border-box;
     border-radius: 30px ;
+    border: solid 1px white;
     
   }
 
@@ -133,5 +135,5 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 16px;
-    background-color:  #162C4C
+    background-color:  rgba(63, 124, 217, 0.2)
   }
