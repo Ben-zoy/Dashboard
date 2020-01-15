@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+    <script src="https://kit.fontawesome.com/5413daf8f9.js" crossorigin="anonymous"></script>
     <title>admin Otusprod</title>
 </head>
 <!--NOTATION EN BEM-->
@@ -13,13 +14,15 @@
 
 <!--BODY / GRID CONTAINER-->
    <body class="grid-container">
-<!--FIN BODY-->
+       <div class="backgroundowl"></div>
+       
+
 
 
 <!--HEADER-->
     <header class="header">
         <div class="header__search">Rechercher un client, une facture, un projet...</div>
-        <div class="class="header__avatar">Your face"></div>
+        <div class="class="header__avatar">Avatar></div>
     </header>
  <!--FIN HEADER-->  
 
@@ -27,11 +30,11 @@
 <!--ASIDE-->
     <aside class="sidenav">
         <ul class="sidenav__list">
-            <li class="sidenav__list-item">Item One</li>
-            <li class="sidenav__list-item">Item Two</li>
-            <li class="sidenav__list-item">Item Three</li>
-            <li class="sidenav__list-item">Item Four</li>
-            <li class="sidenav__list-item">Item Five</li>
+            <li class="sidenav__list-item">Fiche client</li>
+            <li class="sidenav__list-item">Situation</li>
+            <li class="sidenav__list-item">Projet</li>
+            <li class="sidenav__list-item">Location</li>
+            <li class="sidenav__list-item">Réseaux sociaux</li>
           </ul>
     </aside>
 <!--FIN ASIDE-->
@@ -45,20 +48,22 @@
 <!--CARTES PRINCIPALS-->
           <div class="main-overview">
             <div class="overviewcard">
-              <div class="overviewcard__icon">Overview</div>
-              <div class="overviewcard__info">Card</div>
+              <div class="overviewcard__icon">
+                <i class="fas fa-address-book"></i>
+              </div>
+              <div class="overviewcard__info">Clients</div>
             </div>
             <div class="overviewcard">
               <div class="overviewcard__icon">Overview</div>
-              <div class="overviewcard__info">Card</div>
+              <div class="overviewcard__info">Mails</div>
             </div>
             <div class="overviewcard">
               <div class="overviewcard__icon">Overview</div>
-              <div class="overviewcard__info">Card</div>
+              <div class="overviewcard__info">Projets</div>
             </div>
             <div class="overviewcard">
               <div class="overviewcard__icon">Overview</div>
-              <div class="overviewcard__info">Card</div>
+              <div class="overviewcard__info">Editer nouveeau doc</div>
             </div>
           </div>
 <!--CARTES SECONDAIRES-->
@@ -75,16 +80,15 @@
 
 
 
-<!--BODY-->
+<!--FOOTER-->
     <footer class="footer">
         <div class="footer__copyright">&copy; 2020 Ben</div>
         <div class="footer__signature">Don’t let go of anything</div>
     </footer>
-  <!--BODY-->  
+  <!--FIN FOOTER-->  
     
 
 
 
-
-   </body>    
+</body> 
 </html>

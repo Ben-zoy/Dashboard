@@ -1,5 +1,8 @@
 /* Mise en page de la grid principale */
-
+.grid-container{
+  background:url(./visuels/wallpaperOwl.jpg) no-repeat center fixed;
+  background-size: cover;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 240px 1fr;
@@ -11,31 +14,22 @@
     height: 100vh;
   }
 
-.body{
-  background: url(./visuels/wallpaperOwl.jpeg);
-}
-
 
 .header {
     grid-area: header;
-    background-color: rgba(92, 92, 94, 0.2);
+    background-color: #0F1D33;
   }
   
-
-
-
-
              /*------ SIDENAV STYLE ------*/
   .sidenav {
     grid-area: sidenav;
-    background-color: #0F1D33;
   }
 
   .sidenav {
     display: flex; /* Will be hidden on mobile */
     flex-direction: column;
     grid-area: sidenav;
-    background-color: #394263;
+    background-color: #162C4C;
   }
   .sidenav__list {
     padding: 0;
@@ -55,6 +49,7 @@
   .main {
     grid-area: main;
     background-color: rgba(0, 0, 0, 0.315);
+    
   }
   .main-header {
     display: flex;
@@ -84,6 +79,7 @@
     justify-content: space-between;
     padding: 20px;
     background-color: #d3d3;
+    border-radius: 30px;
   }
   .main-cards {
     column-count: 2;
@@ -97,11 +93,13 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #82bef6;
+    background-color:rgba(218, 218, 218, 0.171);
     margin-bottom: 20px;
     -webkit-column-break-inside: avoid;
     padding: 24px;
     box-sizing: border-box;
+    border-radius: 30px ;
+    
   }
 
   /* Force varying heights to simulate dynamic content */
@@ -135,5 +133,5 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 16px;
-    background-color: #1A3359;
+    background-color:  #162C4C
   }
