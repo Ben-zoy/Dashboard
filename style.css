@@ -41,7 +41,7 @@
     color: #ddd;
   }
   .sidenav__list-item:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(63, 124, 217, 0.2);
     cursor: pointer;
   }
 
@@ -58,7 +58,7 @@
     padding: 20px;
 /* Force our height since we don't have actual content yet */
     height: 80px; 
-    background-color: rgba(245, 243, 243, 0.3);
+    background-color: #3F7CD9;
     color: slategray;
     border-radius: 70px;
   }
