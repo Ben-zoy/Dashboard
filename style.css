@@ -91,7 +91,7 @@
     margin: 20px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    
+
   }
   
   /* CARD STYLE */
@@ -109,6 +109,13 @@
     border: solid 1px white;
     
   }
+
+  i.wi{
+font-size: 5em;
+}
+.tooltip{
+  display: none;
+}
 
   /* Force varying heights to simulate dynamic content */
   .card:first-child {
