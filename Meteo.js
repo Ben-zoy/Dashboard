@@ -1,13 +1,7 @@
-// Récuperer l'adresse ip du pc qui ouvre la page //
-// let url1 = "https://api.ipify.org?format=json"
-
-// let request1 = async () => {
-//     let resultat = await fetch(url1);
-//     let ip = await resultat.json();
-//     console.log(ip);
 
 
-// Récuperer la ville grâce à l'adresse IP 
+
+// API METEO MONTPELLIER EN TEMPS REEL 
 let url2 = "https://www.prevision-meteo.ch/services/json/montpellier";
 
 let request2 = async () => {
