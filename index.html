@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
     <script src="https://kit.fontawesome.com/5413daf8f9.js" crossorigin="anonymous"></script>
     <title>admin Otusprod</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'/>
 </head>
 <!--NOTATION EN BEM-->
 
@@ -68,13 +70,28 @@
           </div>
 <!--CARTES SECONDAIRES-->
 <div class="main-cards">
+
     <div class="card"></div>
+
     <div class="card"></div>
-    <div class="card">METEO</div>
+
+    <div class="card" id="Meteocard">METEO
+      <span id="ville">Montpellier</span>
+      <span class="tooltip">Entrez la ville que vous souhaitez</span id=>
+        <i></i>
+        <h2>
+          <span id="temperature">25</span> C° (<span id="condition">ciel dégagé</span>)
+        </h2>
+
+    </div>
+
+
+
+
+
+
   </div>
     </main>
-
-    
 <!--FIN MAIN-->
 
 
@@ -88,7 +105,7 @@
   <!--FIN FOOTER-->  
     
 
-
+<script src="myscript.js"></script>
 
 </body> 
 </html>

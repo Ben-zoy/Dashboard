@@ -12,6 +12,9 @@
       "sidenav main"
       "sidenav footer";
     height: 100vh;
+    font-family: 'Montserrat', sans-serif
+    ;
+    color: white;
   }
 
 
@@ -86,6 +89,9 @@
     column-count: 2;
     column-gap: 20px;
     margin: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
   }
   
   /* CARD STYLE */
